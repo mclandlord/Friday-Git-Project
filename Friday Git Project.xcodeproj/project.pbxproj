@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BA10B6B1D5525C200C6370B /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA10B6A1D5525C200C6370B /* Car.m */; };
 		AA78E1901D5522C8007DB74F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA78E18F1D5522C8007DB74F /* main.m */; };
 		AA78E1931D5522C8007DB74F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA78E1921D5522C8007DB74F /* AppDelegate.m */; };
 		AA78E1961D5522C8007DB74F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA78E1951D5522C8007DB74F /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3BA10B691D5525C200C6370B /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		3BA10B6A1D5525C200C6370B /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
 		AA78E18B1D5522C8007DB74F /* Friday Git Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Friday Git Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA78E18F1D5522C8007DB74F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AA78E1911D5522C8007DB74F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -42,6 +45,8 @@
 		AA78E1821D5522C8007DB74F = {
 			isa = PBXGroup;
 			children = (
+				3BA10B691D5525C200C6370B /* Car.h */,
+				3BA10B6A1D5525C200C6370B /* Car.m */,
 				AA78E18D1D5522C8007DB74F /* Friday Git Project */,
 				AA78E18C1D5522C8007DB74F /* Products */,
 			);
@@ -151,6 +156,7 @@
 			files = (
 				AA78E1961D5522C8007DB74F /* ViewController.m in Sources */,
 				AA78E1931D5522C8007DB74F /* AppDelegate.m in Sources */,
+				3BA10B6B1D5525C200C6370B /* Car.m in Sources */,
 				AA78E1901D5522C8007DB74F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +308,7 @@
 				AA78E1A41D5522C8007DB74F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
