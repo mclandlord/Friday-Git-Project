@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		535EABEC1D5526BD0042EB16 /* clyffsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 535EABEB1D5526BD0042EB16 /* clyffsViewController.m */; };
 		AA78E1901D5522C8007DB74F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA78E18F1D5522C8007DB74F /* main.m */; };
 		AA78E1931D5522C8007DB74F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA78E1921D5522C8007DB74F /* AppDelegate.m */; };
 		AA78E1961D5522C8007DB74F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA78E1951D5522C8007DB74F /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		535EABEA1D5526BD0042EB16 /* clyffsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = clyffsViewController.h; path = ../clyffsViewController.h; sourceTree = "<group>"; };
+		535EABEB1D5526BD0042EB16 /* clyffsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = clyffsViewController.m; path = ../clyffsViewController.m; sourceTree = "<group>"; };
 		AA78E18B1D5522C8007DB74F /* Friday Git Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Friday Git Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA78E18F1D5522C8007DB74F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AA78E1911D5522C8007DB74F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,6 +65,8 @@
 				AA78E1921D5522C8007DB74F /* AppDelegate.m */,
 				AA78E1941D5522C8007DB74F /* ViewController.h */,
 				AA78E1951D5522C8007DB74F /* ViewController.m */,
+				535EABEA1D5526BD0042EB16 /* clyffsViewController.h */,
+				535EABEB1D5526BD0042EB16 /* clyffsViewController.m */,
 				AA78E1971D5522C8007DB74F /* Main.storyboard */,
 				AA78E19A1D5522C8007DB74F /* Assets.xcassets */,
 				AA78E19C1D5522C8007DB74F /* LaunchScreen.storyboard */,
@@ -152,6 +157,7 @@
 				AA78E1961D5522C8007DB74F /* ViewController.m in Sources */,
 				AA78E1931D5522C8007DB74F /* AppDelegate.m in Sources */,
 				AA78E1901D5522C8007DB74F /* main.m in Sources */,
+				535EABEC1D5526BD0042EB16 /* clyffsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +308,7 @@
 				AA78E1A41D5522C8007DB74F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
