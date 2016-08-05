@@ -13,6 +13,7 @@
 		AA78E1991D5522C8007DB74F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA78E1971D5522C8007DB74F /* Main.storyboard */; };
 		AA78E19B1D5522C8007DB74F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA78E19A1D5522C8007DB74F /* Assets.xcassets */; };
 		AA78E19E1D5522C8007DB74F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA78E19C1D5522C8007DB74F /* LaunchScreen.storyboard */; };
+		AA78E1A91D5526AD007DB74F /* Timer.m in Sources */ = {isa = PBXBuildFile; fileRef = AA78E1A81D5526AD007DB74F /* Timer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		AA78E19A1D5522C8007DB74F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA78E19D1D5522C8007DB74F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA78E19F1D5522C8007DB74F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA78E1A71D5526AD007DB74F /* Timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timer.h; sourceTree = "<group>"; };
+		AA78E1A81D5526AD007DB74F /* Timer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Timer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 			children = (
 				AA78E1911D5522C8007DB74F /* AppDelegate.h */,
 				AA78E1921D5522C8007DB74F /* AppDelegate.m */,
+				AA78E1A71D5526AD007DB74F /* Timer.h */,
+				AA78E1A81D5526AD007DB74F /* Timer.m */,
 				AA78E1941D5522C8007DB74F /* ViewController.h */,
 				AA78E1951D5522C8007DB74F /* ViewController.m */,
 				AA78E1971D5522C8007DB74F /* Main.storyboard */,
@@ -152,6 +157,7 @@
 				AA78E1961D5522C8007DB74F /* ViewController.m in Sources */,
 				AA78E1931D5522C8007DB74F /* AppDelegate.m in Sources */,
 				AA78E1901D5522C8007DB74F /* main.m in Sources */,
+				AA78E1A91D5526AD007DB74F /* Timer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
